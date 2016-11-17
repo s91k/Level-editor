@@ -1,0 +1,19 @@
+newmtl pasted__blinn5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd outUVCanon.dds
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Ship3.dds
+map_Kd Ship3_1.dds
+map_Kd Ship3_2.dds
+map_Kd Ship3_3.dds
+map_Kd Ship3_4.dds
+Ni 1.00

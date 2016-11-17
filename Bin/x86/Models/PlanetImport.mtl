@@ -1,0 +1,18 @@
+newmtl blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd outUVplanet0.dds
+map_Kd outUVplanet1.dds
+map_Kd outUVplanet2.dds
+map_Kd outUVplanet3.dds
+bump outUVplanet0Normal2.dds -bm 0.395683
+bump outUVplanet1Normal2.dds -bm 0.395683
+bump outUVplanet2Normal2.dds -bm 0.395683
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks outUVplanet0Bump.dds
+map_Ks outUVplanet1Bump.dds
+map_Ks outUVplanet2Bump.dds
+

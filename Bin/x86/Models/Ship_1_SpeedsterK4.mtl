@@ -1,0 +1,20 @@
+newmtl Skepp1_5:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Ship1_0.dds
+map_Kd Ship1_1.dds
+map_Kd Ship1_2.dds
+map_Kd Ship1_3.dds
+map_Kd Ship1_4.dds
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd outUVFlamer.dds
+Ni 1.00
+Ks 0.50 0.50 0.50

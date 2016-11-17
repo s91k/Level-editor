@@ -1,0 +1,34 @@
+newmtl ShipwithWeapons:scene:blinn13SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd outUVShip0.dds
+map_Kd outUVShip1.dds
+map_Kd outUVShip2.dds
+map_Kd outUVShip3.dds
+map_Kd outUVShip4.dds
+map_Kd outUVShip5.dds
+bump outUVShipBump.dds -bm -0.107914
+bump outUVShipNormal.dds -bm -0.107914
+Ni 1.00
+Ks 0.00 0.00 0.00
+newmtl ShipwithWeapons:scene:blinn14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd outUVShip0.dds
+map_Kd outUVShip1.dds
+map_Kd outUVShip2.dds
+map_Kd outUVShip3.dds
+map_Kd outUVShip4.dds
+map_Kd outUVShip5.dds
+Ni 1.00
+Ks 0.65 0.27 0.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00

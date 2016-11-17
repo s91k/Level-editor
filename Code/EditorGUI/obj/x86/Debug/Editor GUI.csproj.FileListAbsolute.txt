@@ -1,0 +1,17 @@
+C:\Users\Simon\Dropbox\DV1427\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Simon\Dropbox\DV1427\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Example.form1.resources
+C:\Users\Simon\Dropbox\DV1427\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Example.Properties.Resources.resources
+C:\Users\Simon\Dropbox\DV1427\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Simon\Dropbox\DV1427\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Simon\Dropbox\DV1427\Projekt\C# Projekt\Level editor\Bin\x86\Level Editor.exe
+C:\Users\Simon\Dropbox\DV1427\Projekt\C# Projekt\Level editor\Bin\x86\Level Editor.pdb
+C:\Users\Simon\Dropbox\DV1427\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Level Editor.exe
+C:\Users\Simon\Dropbox\DV1427\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Level Editor.pdb
+F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Bin\x86\Level Editor.exe
+F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Bin\x86\Level Editor.pdb
+F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Editor GUI.csprojResolveAssemblyReference.cache
+F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Example.form1.resources
+F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Example.Properties.Resources.resources
+F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Editor GUI.csproj.GenerateResource.Cache
+F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Level Editor.exe
+F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Level Editor.pdb

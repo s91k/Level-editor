@@ -29,3 +29,13 @@ F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# P
 F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Code\EditorGUI\obj\x86\Release\Example.form1.resources
 F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Code\EditorGUI\obj\x86\Release\EditorGUI.Properties.Resources.resources
 F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Code\EditorGUI\obj\x86\Release\Editor GUI.csproj.GenerateResource.Cache
+D:\Simon\Documents\Level editor\Code\EditorGUI\obj\x86\Release\Editor GUI.csprojResolveAssemblyReference.cache
+D:\Simon\Documents\Level editor\Code\EditorGUI\obj\x86\Release\Example.form1.resources
+D:\Simon\Documents\Level editor\Code\EditorGUI\obj\x86\Release\EditorGUI.Properties.Resources.resources
+D:\Simon\Documents\Level editor\Code\EditorGUI\obj\x86\Release\Editor GUI.csproj.GenerateResource.Cache
+D:\Simon\Documents\Level editor\Code\EditorGUI\bin\Release\Level Editor.exe
+D:\Simon\Documents\Level editor\Code\EditorGUI\bin\Release\Level Editor.pdb
+D:\Simon\Documents\Level editor\Code\EditorGUI\bin\Release\C++CLI.dll
+D:\Simon\Documents\Level editor\Code\EditorGUI\bin\Release\C++CLI.pdb
+D:\Simon\Documents\Level editor\Code\EditorGUI\obj\x86\Release\Level Editor.exe
+D:\Simon\Documents\Level editor\Code\EditorGUI\obj\x86\Release\Level Editor.pdb

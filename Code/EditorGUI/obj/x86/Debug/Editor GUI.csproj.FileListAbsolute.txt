@@ -15,3 +15,8 @@ F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# P
 F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Editor GUI.csproj.GenerateResource.Cache
 F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Level Editor.exe
 F:\Övrigt\Högskola\Gamla kurser\DV1427 Scripting och andra språk\Projekt\C# Projekt\Level editor\Code\Example\obj\x86\Debug\Level Editor.pdb
+D:\Simon\Documents\Level editor\Code\EditorGUI\obj\x86\Debug\Editor GUI.csproj.GenerateResource.Cache
+D:\Simon\Documents\Level editor\Code\EditorGUI\obj\x86\Debug\Level Editor.exe
+D:\Simon\Documents\Level editor\Code\EditorGUI\obj\x86\Debug\Editor GUI.csprojResolveAssemblyReference.cache
+D:\Simon\Documents\Level editor\Code\EditorGUI\obj\x86\Debug\Example.form1.resources
+D:\Simon\Documents\Level editor\Code\EditorGUI\obj\x86\Debug\EditorGUI.Properties.Resources.resources

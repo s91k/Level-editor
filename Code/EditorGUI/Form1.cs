@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using System.Windows.Interop;
 
@@ -90,7 +84,7 @@ namespace Example
         private void RenderBox_MouseClick(object sender, MouseEventArgs e)
         {
             this.m_GameEngine.HandleMouseClick(e.X, e.Y);
-            this.label4.Text = "Type: " + this.m_GameEngine.getSelectedInfo();
+            this.descriptionLabel.Text = "Type: " + this.m_GameEngine.getSelectedInfo();
             this.RenderBox.Select();
 
             //Remove the existing panel
@@ -100,10 +94,10 @@ namespace Example
                     //Nothing to remove
                     break;
                 case SelectedType.Planet:
-                    this.panel1.Controls.Remove(this.planetPanel);
+                    this.sidePanel.Controls.Remove(this.planetPanel);
                     break;
                 case SelectedType.Ship:
-                    this.panel1.Controls.Remove(this.shipPanel);
+                    this.sidePanel.Controls.Remove(this.shipPanel);
                     break;
             }
 
@@ -113,7 +107,7 @@ namespace Example
             switch (this.m_currentSelected)
             {
                 case SelectedType.Planet:
-                    this.panel1.Controls.Add(this.planetPanel);
+                    this.sidePanel.Controls.Add(this.planetPanel);
 
                     this.planetTexture.SelectedIndex = this.m_GameEngine.getSelectedTexture();
                     this.planetPosX.Text = this.m_GameEngine.getSelectedPosX().ToString();
@@ -125,7 +119,7 @@ namespace Example
                     break;
 
                 case SelectedType.Ship:
-                    this.panel1.Controls.Add(this.shipPanel);
+                    this.sidePanel.Controls.Add(this.shipPanel);
 
                     this.shipPosX.Text = this.m_GameEngine.getSelectedPosX().ToString();
                     this.shipPosY.Text = this.m_GameEngine.getSelectedPosY().ToString();
@@ -140,21 +134,6 @@ namespace Example
 
                     break;
             }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
@@ -207,15 +186,15 @@ namespace Example
                         //Nothing to remove
                         break;
                     case SelectedType.Planet:
-                        this.panel1.Controls.Remove(this.planetPanel);
+                        this.sidePanel.Controls.Remove(this.planetPanel);
                         break;
                     case SelectedType.Ship:
-                        this.panel1.Controls.Remove(this.shipPanel);
+                        this.sidePanel.Controls.Remove(this.shipPanel);
                         break;
                 }
 
                 this.m_currentSelected = tmp;
-                this.label4.Text = "Type: " + this.m_GameEngine.getSelectedInfo();
+                this.descriptionLabel.Text = "Type: " + this.m_GameEngine.getSelectedInfo();
             }
         }
 
@@ -294,11 +273,6 @@ namespace Example
             }
         }
 
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             try
@@ -323,9 +297,9 @@ namespace Example
 
             if (senderControl.Value != this.m_GameEngine.getWave())
             {
-                if (sender == numericUpDown1)
+                if (sender == currentWaveSelector)
                 {
-                    this.m_GameEngine.setWave((int)numericUpDown1.Value, false);
+                    this.m_GameEngine.setWave((int)currentWaveSelector.Value, false);
                 }
                 else
                 {
@@ -333,7 +307,7 @@ namespace Example
                     this.shipWave.Value = this.m_GameEngine.getWave();
                 }
 
-                numericUpDown1.Value = this.m_GameEngine.getWave();
+                currentWaveSelector.Value = this.m_GameEngine.getWave();
                 SelectedType tmp = (SelectedType)this.m_GameEngine.getSelectedType();
 
                 if (tmp == SelectedType.None)
@@ -345,15 +319,15 @@ namespace Example
                             //Nothing to remove
                             break;
                         case SelectedType.Planet:
-                            this.panel1.Controls.Remove(this.planetPanel);
+                            this.sidePanel.Controls.Remove(this.planetPanel);
                             break;
                         case SelectedType.Ship:
-                            this.panel1.Controls.Remove(this.shipPanel);
+                            this.sidePanel.Controls.Remove(this.shipPanel);
                             break;
                     }
 
                     this.m_currentSelected = tmp;
-                    this.label4.Text = "Type: " + this.m_GameEngine.getSelectedInfo();
+                    this.descriptionLabel.Text = "Type: " + this.m_GameEngine.getSelectedInfo();
                 }
             }
 
@@ -375,15 +349,15 @@ namespace Example
                     //Nothing to remove
                     break;
                 case SelectedType.Planet:
-                    this.panel1.Controls.Remove(this.planetPanel);
+                    this.sidePanel.Controls.Remove(this.planetPanel);
                     break;
                 case SelectedType.Ship:
-                    this.panel1.Controls.Remove(this.shipPanel);
+                    this.sidePanel.Controls.Remove(this.shipPanel);
                     break;
             }
 
-            numericUpDown1.Value = this.m_GameEngine.getWave();
-            this.label4.Text = "Type: " + this.m_GameEngine.getSelectedInfo();
+            currentWaveSelector.Value = this.m_GameEngine.getWave();
+            this.descriptionLabel.Text = "Type: " + this.m_GameEngine.getSelectedInfo();
         }
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
